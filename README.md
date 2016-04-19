@@ -1,5 +1,11 @@
 Build status: [![Build Status](https://travis-ci.org/greenaddress/WalletCordova.png?branch=master)](https://travis-ci.org/greenaddress/WalletCordova) 
 
+## How to update web assets
+
+ 1. `npm install`
+ 2. `npm run build`
+
+See [here](https://github.com/greenaddress/WalletCrx/tree/browserify#updating-greenaddresswebfiles) for details instructions on working with local npm modules.
 
 ## How to build on Android
 
