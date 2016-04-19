@@ -1,0 +1,28 @@
+{
+  "name": "greenaddress-cordova",
+  "version": "1.0.0",
+  "description": "GreenAddress' open source Android (Cordova) client https://greenaddress.it/",
+  "main": "www/greenaddress.it/static/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/gulp build",
+    "watch": "./node_modules/.bin/gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greenaddress/WalletCordova.git"
+  },
+  "author": "",
+  "license": "LGPL-2.1",
+  "bugs": {
+    "url": "https://github.com/greenaddress/WalletCordova/issues"
+  },
+  "homepage": "https://github.com/greenaddress/WalletCordova#readme",
+  "devDependencies": {
+    "cordova": "^5.4.1",
+    "greenaddress-webfiles": "github:chrisinajar/greenaddresswebfiles",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-sane-watch": "^1.1.2"
+  }
+}

@@ -9,3 +9,5 @@ local.properties
 plugins/android.json
 my-release-key.keystore
 *.swp
+
+node_modules/
